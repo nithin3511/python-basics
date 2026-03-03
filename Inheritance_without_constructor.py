@@ -8,8 +8,8 @@ class child(parent):
    def meth_b(self):
       print("i am child class method")
 
-#print(dir(parent)) #It returns a list of all attributes and methods of an object.
-#print(dir(child)) #It returns a list of all attributes and methods of an object.
+print(dir(parent)) #It returns a list of all attributes and methods of an object.
+print(dir(child)) #It returns a list of all attributes and methods of an object.
 
 obj_p=parent()
 obj_p.meth_a()
